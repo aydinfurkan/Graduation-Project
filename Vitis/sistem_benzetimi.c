@@ -105,7 +105,7 @@ struct DataArrays RoundKeyExpansion(struct DataArray mainKeys)
 {
 	struct DataArrays roundKeys;
 
-	////////////////////////    Anahtar Üretilmesi     /////////////////////////////
+	////////////////////////    Anahtar Ãœretilmesi     /////////////////////////////
 
 	XAnahtaruretimi_WriteReg(XPAR_ANAHTARURETIMI_0_S_AXI_AXILITES_BASEADDR, 0x10, mainKeys.datas[0]);
 	XAnahtaruretimi_WriteReg(XPAR_ANAHTARURETIMI_0_S_AXI_AXILITES_BASEADDR, 0x14, mainKeys.datas[1]);
